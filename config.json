@@ -1,19 +1,17 @@
 {
-  "displayTZ": "Asia/Hong_Kong",
+  "displayTZ": "Europe/Prague",
   "thresholdHours": 24,
   "maxEventsPerDay": 3,
-  "isDisplayToScreen": false,
+  "isDisplayToScreen": true,
   "isShutdownOnComplete": false,
   "batteryDisplayMode": 1,
-  "weekStartDay": 6,
-  "dayOfWeekText": ["M", "T", "W", "T", "F", "S", "S"],
-  "screenWidth": 1304,
-  "screenHeight": 984,
-  "imageWidth": 984,
-  "imageHeight": 1304,
-  "rotateAngle": 270,
-  "is24h": false,
-  "calendars": [
-    "primary"
-  ]
+  "weekStartDay": 0,
+  "dayOfWeekText": ["Po", "Út", "St", "Čt", "Pá", "So", "Ne"]
+  "screenWidth": 648,
+  "screenHeight": 480,
+  "imageWidth": 648,
+  "imageHeight": 480,
+  "rotateAngle": 0,
+  "is24h": true,
+  "calendars": ["primary"]
 }
