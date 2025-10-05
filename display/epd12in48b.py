@@ -29,8 +29,8 @@
 import time
 import display.epdconfig as epdconfig
 
-EPD_WIDTH       = 1304
-EPD_HEIGHT      = 984
+EPD_WIDTH       = 648
+EPD_HEIGHT      = 480
 
 class EPD(object):
     def __init__(self):
@@ -523,3 +523,4 @@ class EPD(object):
         self.M1S1M2S2_SendCommand(0x25) #bb b
         for count in range(0, 60):
             self.M1S1M2S2_SendData(self.lut_ww1[count])   # bb=b
+
